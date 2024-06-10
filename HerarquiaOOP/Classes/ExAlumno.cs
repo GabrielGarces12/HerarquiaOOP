@@ -7,8 +7,6 @@ namespace HerarquiaOOP.Classes
 
         public override void MostrarInformacion()
         {
-            base.MostrarInformacion();
-
             Console.WriteLine($"Anio de Graduacion: { AnioGraduacion}");
         }
     }

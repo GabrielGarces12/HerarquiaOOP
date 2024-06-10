@@ -1,20 +1,26 @@
 ﻿using HerarquiaOOP.Classes;
 
-List<Empleado> empleados = new List<Empleado>();
+List<Maestro> maestros = new List<Maestro>();
 
-Empleado empleado = new Empleado();
+Maestro maestro = new Maestro();
 
-
-Console.WriteLine("Ingrese el nombre: ");
-empleado.Nombre = Console.ReadLine();
+Console.WriteLine("Ingrese el Nombre Completo: ");
+maestro.NombreCompleto = Console.ReadLine();
 
 Console.WriteLine("Ingrese la edad: ");
-empleado.Edad = Convert.ToInt32(Console.ReadLine());
+maestro.Edad = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Ingrese el deparatmaneto en el que trabaja:");
-empleado.Departamento = Console.ReadLine();
+maestro.Departamento = Console.ReadLine();
 
-empleado.MostrarInformacion();
+Console.WriteLine("Ingrese la Asignatura: ");
+maestro.Asigantura = Console.ReadLine();
+
+Console.WriteLine("Ingrese el nivel educativo: ");
+maestro.NivelEducativo = Console.ReadLine();
+
+maestro.MostrarInformacion();
+
 
 
 

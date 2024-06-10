@@ -7,7 +7,7 @@ namespace HerarquiaOOP.Classes
 
         public override void MostrarInformacion()
         {
-            
+
             Console.WriteLine($"Departamento: { Departamento}");
         }
     }
